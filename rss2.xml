@@ -4,18 +4,33 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>蜃楼</title>
-    <link>https://github.com/shenlou99/shenlou99.github.io/</link>
+    <link>https://shenlou99.github.io/</link>
     
-    <atom:link href="https://github.com/shenlou99/shenlou99.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://shenlou99.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>选择有时候比努力更重要</description>
-    <pubDate>Sat, 14 Jan 2023 10:47:46 GMT</pubDate>
+    <pubDate>Sat, 14 Jan 2023 15:16:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
+      <title></title>
+      <link>https://shenlou99.github.io/2023/01/14/text/</link>
+      <guid>https://shenlou99.github.io/2023/01/14/text/</guid>
+      <pubDate>Sat, 14 Jan 2023 15:21:49 GMT</pubDate>
+      
+      
+      
+      
+      
+      
+      <comments>https://shenlou99.github.io/2023/01/14/text/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Hello World</title>
-      <link>https://github.com/shenlou99/shenlou99.github.io/2023/01/14/hello-world/</link>
-      <guid>https://github.com/shenlou99/shenlou99.github.io/2023/01/14/hello-world/</guid>
+      <link>https://shenlou99.github.io/2023/01/14/hello-world/</link>
+      <guid>https://shenlou99.github.io/2023/01/14/hello-world/</guid>
       <pubDate>Sat, 14 Jan 2023 10:47:46 GMT</pubDate>
       
         
@@ -30,7 +45,7 @@
       
       
       
-      <comments>https://github.com/shenlou99/shenlou99.github.io/2023/01/14/hello-world/#disqus_thread</comments>
+      <comments>https://shenlou99.github.io/2023/01/14/hello-world/#disqus_thread</comments>
       
     </item>
     
