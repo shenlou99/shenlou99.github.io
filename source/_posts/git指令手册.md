@@ -1,7 +1,9 @@
 ---
 title: git指令手册
 date: 2023-01-15 15:49:45
-tags:
+tags: git
+categories: git
+
 ---
 
 

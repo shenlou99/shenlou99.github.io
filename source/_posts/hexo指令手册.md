@@ -1,7 +1,8 @@
 ---
 title: hexo指令手册
 date: 2023-01-15 15:15:29
-tags:
+tags: hexo
+categories: hexo
 ---
 
 ### 新建一个网站
