@@ -4,10 +4,11 @@
 
 menu:
    主页: / || fas fa-home
-   归档: /archives/ || fas fa-archive
-   标签: /tags/ || fas fa-tags
-   分类: /categories/ || fas fa-folder-open
-   清单||fas fa-list:
+   目录||fas fa-bars:
+     归档: /archives/ || fas fa-archive
+     标签: /tags/ || fas fa-tags
+     分类: /categories/ || fas fa-folder-open
+   娱乐||fas fa-tv:
      音乐: /music/ || fas fa-music
      照片: /Gallery/ || fas fa-images
      电影: /movies/ || fas fa-video
@@ -812,14 +813,14 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     # - xxxx
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -885,6 +886,7 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
+       - <div class="aplayer no-destroy" data-id="5463535365" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
