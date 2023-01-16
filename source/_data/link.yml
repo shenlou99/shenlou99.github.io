@@ -5,7 +5,19 @@
       link: https://hexo.io/zh-tw/
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
       descr: 快速、简单且强大的网志框架
-
+    - name: r2coding
+      link: https://www.r2coding.com/#/
+      avatar: /source/_data/r2coding.png
+      descr: 程序羊编程之路
+    - name: EE学术
+      link: https://ee.ac.cn/
+      avatar: 
+      descr: 刘航宇的博客
+    - name: 小鲨鱼
+      link: https://www.sk1991.xyz/
+      avatar: 
+      descr: 小鲨鱼单片机
+   
 - class_name: 网站
   class_desc: 值得推荐的网站
   link_list:
@@ -21,3 +33,44 @@
       link: https://twitter.com/
       avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
       descr: 社交分享平台
+    - name: 万有导航
+      link: http://wanyouw.com/
+      avatar: 
+      descr: 互联网全职业的聚合资源网址
+    - name: 影视森林
+      link: http://549.tv/
+      avatar: 
+      descr: 观影第一站
+    - name: tbox导航
+      link: https://www.tboxn.com/
+      avatar: 
+      descr: 优质在线工具的导航网站
+    - name: 奶爸网站
+      link: https://www.nbwz.com/
+      avatar: 
+      descr: 免费网站导航
+    - name: 不求人导航
+      link: https://www.bqrdh.com/#nbwzcom
+      avatar: 
+      descr: 专业导航网站
+    - name: 学吧导航
+      link: https://www.xue8nav.com/
+      avatar: 
+      descr: 学习爱好者都在用的学霸网站
+    - name: 程序员导航
+      link: http://cxy521.com/
+      avatar: 
+      descr: 个人技术分享
+    - name: 超能搜
+      link: https://www.chaonengsou.com/
+      avatar: 
+      descr: 百度网盘搜索神器
+    - name: 哆啦A梦的神奇口袋
+      link: http://baozangku.ysepan.com/
+      avatar: 
+      descr: 
+    - name: 阿虚同学的储物间
+      link: https://axutongxue.com/
+      avatar: 
+      descr: 
+
