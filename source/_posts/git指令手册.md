@@ -3,18 +3,16 @@ title: git指令手册
 date: 2023-01-15 15:49:45
 tags: git
 categories: git
-
 ---
 
-
-![](./image/git基本操作.png "git基本操作")
+![git基本操作](image/git基本操作.png)
 
 
 ### 一个简单的操作步骤
 	git init    
 	git add .   
 	git commit
-     
+
 - git init    -初始化仓库。
 - git add .   -添加文件到暂存区。
 - git commit  -将暂存区内容添加到仓库中。 
