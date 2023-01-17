@@ -62,7 +62,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ""
-  per_page: 1
+  per_page: 7
   order_by: -date
 
 # Category & Tag
@@ -116,3 +116,45 @@ search:
 aplayer:
   meting: true
   asset_inject: false
+
+# hexo-butterfly-swiper
+# see https://akilar.top/posts/8e1264d1/
+swiper:
+  enable: false # 开关
+  priority: 5 # 过滤器优先权
+  enable_page: all # 应用页面
+  timemode: date # date/updated
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  default_descr: 
+  swiper_css: https://unpkg.zhimg.com/hexo-butterfly-swiper/lib/swiper.min.css
+  swiper_js: https://unpkg.zhimg.com/hexo-butterfly-swiper/lib/swiper.min.js
+  custom_css: https://unpkg.zhimg.com/hexo-butterfly-swiper/lib/swiperstyle.css
+  custom_js: https://unpkg.zhimg.com/hexo-butterfly-swiper/lib/swiper_init.js
+
+butterfly_article_double_row:
+  enable: false
+
+magnet:
+  enable: false # 是否开启插件
+  priority: 1 # 插件的叠放顺序，数字越大越靠前(如果引用了类似 hexo-githubcalendar插件，则相应需调整并根据提示升级插件)
+  enable_page: / # 路由地址
+  type: categories # 选择筛选分类还是标签
+  devide: 2 # 表示分隔的列数，2 表示分为两列展示
+  display: # 要展示的列表配置(按照name-标签/分类名称、display_name-展示名称、icon-图标这个格式进行构建)
+    - name: 教程
+      display_name: 小冰の魔改教程
+      icon: 📚
+  color_setting: # 颜色配置项
+    text_color: black # 文字颜色
+    text_hover_color: white # 鼠标悬浮颜色
+    background_color: "#f2f2f2" # 文字背景颜色
+    background_hover_color: "#b30070" # 文字背景颜色
+  layout: # 挂载组件
+    type: id # class&id
+    name: recent-posts 
+    index: 0
+  temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet">${temple_html_item}</div></div>' # html模板，包含挂载容器
+  plus_style: ""

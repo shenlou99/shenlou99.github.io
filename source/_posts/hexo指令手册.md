@@ -3,6 +3,7 @@ title: hexo指令手册
 date: 2023-01-15 15:15:29
 tags: hexo
 categories: hexo
+swiper_index: 1 #置顶轮播图顺序，需填非负整数，数字越大越靠前
 ---
 
 ### 新建一个网站
