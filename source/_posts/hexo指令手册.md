@@ -42,7 +42,10 @@ hexo n 是 hexo new 的缩写，命令效果一致。
 ### 部署网站
 	hexo deploy
 
+当执行 `hexo deploy` 时，Hexo 会将 `public` 目录中的文件和目录推送至 `_config.yml` 中指定的远端仓库和分支中，并且**完全覆盖**该分支下的已有内容。
+
 ### 清除缓存文件 (db.json) 和已生成的静态文件 (public)
+
 	hexo clean
 
 ### 列出网站资料
