@@ -5,7 +5,7 @@ tags: git
 categories: git
 ---
 
-![git基本操作](image/git基本操作.png)
+![git基本操作](../images/git基本操作.png)
 
 
 ### 一个简单的操作步骤
