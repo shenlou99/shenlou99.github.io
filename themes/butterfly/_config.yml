@@ -887,7 +887,8 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
-       - <div class="aplayer no-destroy" data-id="5463535365" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
+    # - <div class="aplayer no-destroy" data-id="000PeZCQ1i4XVs" data-server="tencent" data-type="artist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div>
+    - <meting-js server="tencent" autoplay="true" type="playlist" fixed="true"   id="8475754900"></meting-js>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -954,9 +955,9 @@ CDN:
     # fontawesomeV6:
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
-    # aplayer_css:
-    # aplayer_js:
-    # meting_js:
+    # aplayer_css: 'https://cdn.chrelyonly.cf/npm/aplayer/dist/APlayer.min.css'
+    # aplayer_js:  'https://cdn.chrelyonly.cf/npm/aplayer/dist/APlayer.min.js'
+    # meting_js: 'https://cdn.chrelyonly.cn/Meting.min.js'
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:
