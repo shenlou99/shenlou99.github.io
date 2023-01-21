@@ -53,3 +53,9 @@ tags: metingjs
 ![音乐播放器1](../images/音乐播放器1.jpg)
 
 ![音乐播放器2](../images/音乐播放器2.png)
+
+
+
+## Option
+
+![metingjs可选项](../images/音乐播放器3.jpg)
