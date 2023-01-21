@@ -24,6 +24,19 @@ tags: metingjs
 	id="60198">
 </meting-js>
 
+或者(推荐下方形式)
+
+<link rel="stylesheet" href="https://cdn.chrelyonly.cf/npm/aplayer/dist/APlayer.min.css">
+
+<script src="https://cdn.chrelyonly.cf/npm/aplayer/dist/APlayer.min.js"></script>
+<script src="https://cdn.chrelyonly.cn/Meting.min.js"></script>
+
+<meting-js
+    server="netease"
+    type="playlist"
+    id="6960440256">
+</meting-js>
+
 2.如果是吸底播放器，则在主题配置文件中的inject的bottom下插入以下代码：
 
 ``` - <meting-js server="netease" type="playlist" fixed="true"  id="6960440256">```
