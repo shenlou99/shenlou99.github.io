@@ -75,4 +75,4 @@ tags: C#
 
 ## 附图
 
-![C#定时器实例](../images/C#定时器实例.png)
+![C#定时器实例](../images/Csharp定时器实例.png)
