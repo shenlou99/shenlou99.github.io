@@ -20,7 +20,7 @@ tags: C#
 
   - 在文头引用库文件，格式为：using namespace。例如：
 
-    ```
+    ```c#
     using System.Windows.Threading
     
     

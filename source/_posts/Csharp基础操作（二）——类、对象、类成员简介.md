@@ -36,31 +36,31 @@ tags: C#
 
 2. 引用线程类
 
-   ```
+   ```c#
    using System.Windows.Threading;
    ```
 
 3. 创建定时器实例
 
-   ```
+   ```c#
    DispatcherTimer timer = new DispatcherTimer();
    ```
 
 4. 引用定时器属性
 
-   ```
+   ```c#
    timer.Interval = TimeSpan.FromSeconds(1);
    ```
 
 5. 引用定时器方法
 
-   ```
+   ```c#
    timer.Tick += timer_Tick;		//+=在C#中表示把后面timer_Tick这个方法(函数)挂接到这个事件上，即事件每触发一次，就执行一次方法(函数)，该方法又叫事件处理器。
    ```
 
 6. 事件处理器：在textbox显示实时时钟
 
-   ```
+   ```c#
    void timer_Tick(object sender,EventArgs e)
    {
    	this.textbox1.Text = DateTime.Now.ToString();
@@ -69,7 +69,7 @@ tags: C#
 
 7. 启动定时器
 
-   ```
+   ```c#
    timer.Start();
    ```
 
