@@ -2,6 +2,7 @@
 title: C#基础操作（八）——字符串
 date: 2023-01-24 17:15:43
 tags: C#
+categories: C#
 ---
 
 在 C# 中，您可以使用字符数组来表示字符串，但是，更常见的做法是使用 **string** 关键字来声明一个字符串变量。string 关键字是 **System.String** 类的别名。

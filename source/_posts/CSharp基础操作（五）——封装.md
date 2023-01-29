@@ -2,6 +2,7 @@
 title: C#基础操作（五）——封装
 date: 2023-01-24 13:58:49
 tags: C#
+categories: C#
 ---
 
 # C# 封装

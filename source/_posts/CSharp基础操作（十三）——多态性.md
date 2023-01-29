@@ -2,6 +2,7 @@
 title: C#基础操作（十三）——多态性
 date: 2023-01-24 20:46:45
 tags: C#
+categories: C#
 ---
 
 # C# 多态性

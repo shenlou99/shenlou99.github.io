@@ -2,6 +2,7 @@
 title: CSharp基础操作（六）——方法
 date: 2023-01-24 15:01:20
 tags: C#
+categories: C#
 ---
 
 ## C# 中调用方法

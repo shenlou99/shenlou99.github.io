@@ -2,6 +2,7 @@
 title: hexo多端同步
 date: 2023-01-21 22:21:45
 tags: hexo
+categories: hexo
 ---
 
 ## 换了电脑怎么办？

@@ -2,6 +2,7 @@
 title: C#基础操作（十六）——命名空间
 date: 2023-01-25 16:59:50
 tags: C#
+categories: C#
 ---
 
 # C# 命名空间（Namespace）

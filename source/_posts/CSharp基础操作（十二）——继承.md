@@ -2,6 +2,7 @@
 title: C#基础操作（十二）——继承
 date: 2023-01-24 20:29:35
 tags: C#
+categories: C#
 ---
 
 # C# 继承

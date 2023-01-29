@@ -1,8 +1,8 @@
 ---
 title: hexo+butterfly基本信息
 date: 2023-01-17 09:11:56
-tags: hexo,butterfly
-categories: hexo,butterfly
+tags: hexo butterfly
+categories: hexo butterfly
 ---
 
 ## 一、Hexo站点信息

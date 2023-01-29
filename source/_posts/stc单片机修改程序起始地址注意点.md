@@ -2,6 +2,7 @@
 title: stc单片机修改程序起始地址注意点
 date: 2023-01-29 08:17:14
 tags: stc
+categories: 单片机
 ---
 
 1.A51文件中更改AT值，即导致startup复位中断向量地址更改。

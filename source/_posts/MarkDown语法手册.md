@@ -3,7 +3,6 @@ title: MarkDown语法手册
 date: 2023-01-15 15:15:29
 tags: MarkDown
 categories: MarkDown
-swiper_index: 2 #置顶轮播图顺序，需填非负整数，数字越大越靠前
 ---
 
 ## 标题语法

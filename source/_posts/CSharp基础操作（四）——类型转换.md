@@ -2,6 +2,7 @@
 title: C#基本操作（四）——类型转换
 date: 2023-01-24 12:36:00
 tags: C#
+categories: C#
 ---
 
 # C# 类型转换

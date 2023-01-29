@@ -2,6 +2,7 @@
 title: C#基础操作（七）——数组
 date: 2023-01-24 15:23:38
 tags: C#
+categories: C#
 ---
 
 ## 声明数组

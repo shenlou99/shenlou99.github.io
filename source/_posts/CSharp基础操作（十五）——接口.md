@@ -2,6 +2,7 @@
 title: C#基础操作（十五）——接口
 date: 2023-01-25 16:29:02
 tags: C#
+categories: C#
 ---
 
 # C# 接口（Interface）

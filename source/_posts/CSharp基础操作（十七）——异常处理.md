@@ -2,6 +2,7 @@
 title: C#基础操作（十七）——异常处理
 date: 2023-01-25 17:42:49
 tags: C#
+categories: C#
 ---
 
 # C# 异常处理
