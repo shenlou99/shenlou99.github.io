@@ -2,7 +2,7 @@
 title: C语言实例（一）——进制转换
 date: 2023-01-26 11:23:12
 tags: C
-categories: C
+categories: C实例
 ---
 
 ## 一、二进制转换为十进制

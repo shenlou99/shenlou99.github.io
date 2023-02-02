@@ -2,7 +2,7 @@
 title: C语言实例（二）——字符串翻转
 date: 2023-01-26 12:45:58
 tags: C
-categories: C
+categories: C实例
 ---
 
 # C 语言实例 - 字符串翻转
