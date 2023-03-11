@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>C语言标准库——vsprintf</title>
+      <link href="/2023/03/11/C%E8%AF%AD%E8%A8%80%E6%A0%87%E5%87%86%E5%BA%93%E2%80%94%E2%80%94vsprintf/"/>
+      <url>/2023/03/11/C%E8%AF%AD%E8%A8%80%E6%A0%87%E5%87%86%E5%BA%93%E2%80%94%E2%80%94vsprintf/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、定义"><a href="#一、定义" class="headerlink" title="一、定义"></a>一、定义</h2><p>vsprintf是C语言库函数之一，属于可变参数。用于向字符串中打印数据、数据格式用户自定义。</p><p>头文件是：**#include “stdarg.h”**</p><p><strong>函数声明：</strong></p><p>int vsnprintf(char* str,size_t size,const char* format,va_list ap);</p><p><strong>参数说明：</strong></p><p>char* str[out]：把生成的格式化的字符串存放在这里。</p><p>size_t size：str可接受的最大字符数（<strong>非字节数</strong>）。注意防止数组越界！</p><p>const char* format：指定输出格式的字符串。</p><p>va_list ap：va_list变量。</p><p><strong>函数功能：</strong></p><p>将可变参数格式化输出到一个字符数组。</p><p><strong>返回值：</strong></p><p>执行成功，返回最终生成字符串的长度，若生成字符串的长度大于size，则将字符串的前size个字符复制到str，同时将原串的长度返回（不包含终止符）；</p><p>执行失败，则返回负值，并置errno。</p><h2 id="二、示例"><a href="#二、示例" class="headerlink" title="二、示例"></a>二、示例</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stdio.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stdarg.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">PrintFError</span><span class="params">(<span class="type">const</span> <span class="type">char</span>* format,...)</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="type">char</span> buffer[<span class="number">256</span>];</span><br><span class="line">va_list args;</span><br><span class="line">va_start(args,format);</span><br><span class="line">vsnprintf(buffer,<span class="number">256</span>,format,args);</span><br><span class="line">perror(buffer);</span><br><span class="line">va_end(args);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">FILE* pFile;</span><br><span class="line"><span class="type">char</span> szFileName[] = <span class="string">&quot;myfile.txt&quot;</span>;</span><br><span class="line">pFile = fopen(szFileName,<span class="string">&quot;r&quot;</span>);</span><br><span class="line"><span class="keyword">if</span>(pFile == <span class="literal">NULL</span>)</span><br><span class="line">&#123;</span><br><span class="line">PrintFError(<span class="string">&quot;Error opening &#x27;%s&#x27;&quot;</span>,szFileName);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">&#123;</span><br><span class="line">fclose(pFile);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> C语言标准库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vsprintf </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C语言标准库——va_list</title>
       <link href="/2023/03/11/C%E8%AF%AD%E8%A8%80%E6%A0%87%E5%87%86%E5%BA%93%E2%80%94%E2%80%94va-list/"/>
       <url>/2023/03/11/C%E8%AF%AD%E8%A8%80%E6%A0%87%E5%87%86%E5%BA%93%E2%80%94%E2%80%94va-list/</url>
